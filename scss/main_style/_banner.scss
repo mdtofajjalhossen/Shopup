@@ -1,0 +1,62 @@
+
+/*------------------------banner style----------------------------*/
+.banner_bg {
+     background-color: #20415E;
+    background-image: url(../image/bitmapb.png); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    position: relative;
+    .container {
+        height: 100%;
+        .row {
+            height: 100%;
+            .col-md-12 {
+                height: 100%;
+                .banner_content {
+                    height: 100%; 
+                    padding: 130px 0 100px;
+                    .media {
+                        height: 100%;
+                        .media-left {
+                            h3 {
+                                opacity: 0.85;
+                                font-family: 'noto_sans_bengali_uiregular';
+                                font-size: 36px;
+                                font-weight: 600;
+                                font-style: normal;
+                                font-stretch: normal;
+                                letter-spacing: normal;
+                                color: #ffc23b;
+                                margin-bottom: 20px;
+                            }
+                             p {
+                                opacity: 0.75;
+                                font-family: 'noto_sans_bengali_uiregular';
+                                font-size: 18px;
+                                font-weight: 500;
+                                line-height: 24px;
+                                color: #ffffff;
+                                margin-bottom: 40px;
+                             }
+                             a {
+                                 img {
+                                   
+                                 }
+                             }
+                        }
+                        .media-body {
+                            img {
+                                position: relative;
+                                left: -70px;
+                                top: -34px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

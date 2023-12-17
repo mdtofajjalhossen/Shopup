@@ -1,0 +1,142 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: shopup
+
+This file contains the styling for the actual shopup landing page, this
+is the file you need to edit to change the look of the
+template.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: shopup
+@Author: shopup
+@Developed By: md tofajjal hossen
+
+@Default Styles
+
+Table of Content:
+01/ navigation
+02/ bannner
+03/ call to action
+04/ service
+05/ feature
+06/ team carosuel
+07/ footer
+08/ copyright
+
+=====================================================================*/
+/*====================================================*/
+
+/*------------------------default style----------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'noto_sans_bengali_uiregular';
+    // font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+// mobile device show all class
+.disnone {
+    display: none;
+}
+
+.copyrighdpnone {
+    display: none;
+}
+
+.mobile_falog {
+    display: none;
+}
+
+.mb_mhide {
+    display: none;
+}
+
+
+// all default custom css in mobile dropdown
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+}

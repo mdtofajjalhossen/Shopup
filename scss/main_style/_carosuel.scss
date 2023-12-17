@@ -1,0 +1,141 @@
+/*------------------------team carosuel style----------------------------*/
+.team_carosuel {
+    padding: 145px 0 100px;
+    position: relative;
+
+    .team_heading {
+        h2 {
+            opacity: 0.75;
+            font-family: 'noto_sans_bengali_uiregular';
+            font-size: 28px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        p {
+            max-width: 880px;
+            opacity: 0.56;
+            font-family: 'noto_sans_bengali_uiregular';
+            font-size: 18px;
+            ;
+            line-height: 1.56;
+            color: #000000;
+            margin-bottom: 60px;
+        }
+    }
+
+    .single_team {
+        border-radius: 4px;
+        box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.12);
+        background-color: #ffffff;
+        margin: 0 0 10px 0;
+
+        .team_content {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .team_info {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-image: linear-gradient(74deg, #ffc929 90%, transparent 50%);
+
+                width: 220px;
+
+                color: #000000;
+
+                p {
+                    padding: 6px 0 6px 20px;
+                    font-family: 'noto_sans_bengali_uiregular';
+                    font-size: 18px;
+                    line-height: 1.56;
+                    opacity: 0.56;
+                }
+            }
+        }
+
+        .teammem_info {
+            padding: 22px 0 0 20px;
+
+            h4 {
+                opacity: 0.7;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                color: #000000;
+                margin-bottom: 7px;
+            }
+
+            h5 {
+                opacity: 0.4;
+                font-family: 'Roboto', sans-serif;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                color: #000000;
+                margin-bottom: 16px;
+
+            }
+
+            a {
+                font-family: 'noto_sans_bengali_uiregular';
+                font-size: 16px;
+                font-weight: 600;
+                color: #f27123;
+                margin-bottom: 25px;
+                display: inline-block;
+                text-decoration: none;
+
+                i {
+                    margin-left: 10px;
+                    display: inline-block;
+                    max-width: 15px;
+                    height: 15px;
+                }
+
+                &:hover {
+                    color: #000000;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
+
+.team_carosuel .slick-initialized .slick-slide {
+    outline: none;
+}
+
+.controllers {
+    text-align: center;
+}
+
+.controllers span {
+    cursor: pointer;
+    font-size: 23px;
+    background: #FFC929;
+    color: #40320a;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    line-height: 46px;
+}
+
+
+.controllers span.previous {
+    position: absolute;
+    right: 20%;
+    left: auto !important;
+    top: 29%;
+
+}
+
+.controllers span.next {
+    position: absolute;
+    right: 14%;
+    top: 29%;
+}

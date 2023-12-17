@@ -1,0 +1,108 @@
+/*------------------------service style----------------------------*/
+.service_wrap {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 0;
+        background-image: linear-gradient(90deg, #ffc929 45%, #ffffff 0% );
+        height: 474px;
+        width: 100%;
+        transform: translateY(-50%); 
+    }
+    .service_content_wrap {
+        .service_content_slider {
+            .flex-control-nav {
+                position: static;
+                bottom: 0;
+                text-align: left;
+                li {
+                    margin-bottom: 62px;
+                    cursor: pointer;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                        .sing_service {
+                            .media {
+                                .media-left {
+                                    p {
+                                        &::before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.flex-active {
+                        .sing_service {
+                            .media {
+                                .media-left {
+                                    p {
+                                        background: #ffc929;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .sing_service {
+                        .media {
+                            .media-left {
+                                p {
+                                    border-radius: 50%;
+                                    border: 6px solid #ffc929;
+                                    height: 100px;
+                                    width: 100px;
+                                    text-align: center;
+                                    display: inline-block;
+                                    line-height: 80px;
+                                    margin-bottom: 9px;
+                                    background-color: #ffffff;
+                                    opacity: 0.75;
+                                    font-size: 46px;
+                                    font-weight: 600;
+                                    color: #000000;
+                                    transition: all 0.5s;
+                                    margin-bottom: 0;
+                                    position: relative;
+                                    &:before {
+                                        position: absolute;
+                                        content: "...";
+                                        color: #d8d8d8;
+                                        font-size: 50px;
+                                        transform: rotate(90deg) translate(85px, -10px);
+                                    }
+                                }
+                            }
+                            .media-body {
+                                margin-left: 35px;
+                                margin-top: 15px;
+                                h2 {
+                                    max-width: 430px;
+                                    opacity: 0.75;
+                                    font-family: 'noto_sans_bengali_uiregular';
+                                    font-size: 28px;
+                                    font-weight: 600;
+                                    font-style: normal;
+                                    font-stretch: normal;
+                                    line-height: 1.21;
+                                    letter-spacing: normal;
+                                    color: #000000;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.service_wrap {
+    background: transparent !important;
+    height: auto !important;
+}
+
+
